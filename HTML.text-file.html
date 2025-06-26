@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal CV</title>
+    <link rel="stylesheet" href="CSS.text-file.css"> <!-- Linking CSS -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   <script defer src="script.js"></script> <!-- Link to Your JavaScript -->
+
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header id="main-header">
+        <h1>Marcus Andersons CV</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+    </nav>
+</header>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" style="display: flex; align-items: flex-start; gap: 2rem;">
+        <div style="flex: 0 0 350px; max-width: 350px; align-self: stretch; display: flex;">
+            <img src="home-photo.jpg" alt="home Photo" style="width: 100%; height: 100%; border-radius: 10px; object-fit: cover; display: block; flex: 1 1 auto;">
+        </div>
+        <div style="font-size: 1.3rem;">
+            <h2 style="font-size: 1.3rem;;">About Me</h2>
+            <blockquote style="font-size: 1.3rem; font-family: inherit;">
+                <p style="font-size: 1.3rem; font-family: inherit;"></p>
+                    <em style="font-family: inherit;"></em>
+                        My career at this point feels like a journey of aptitude; aptitude of business, technologic development and appraisal.
+                        Currently I find myself on a new venture, inhabiting the online enviroment, facilitated by 
+                        <a href="https://www.aston.ac.uk/" target="_blank" style="font-family: inherit;">Aston University</a>. Computer Science is my course.
+                        outside of my studies I do have some hobbies, such as footabll, which I play once a week.
+                    </em>
+                </p>
+            </blockquote>
+            <h3 style="font-size: 1.3rem;">Key Skills</h3>
+            <ul>
+                <li>Technical Troubleshooting: Expert in diagnosing and resolving complex application issues, leveraging Azure Insights for monitoring and SQL for backend data management.</li>
+                <li>Cloud &amp; Database Technologies: Skilled in cloud platforms (Azure, AWS), Microsoft Dynamics, and SQL database management, including stored procedures and data integration.</li>
+                <li>Software Tools: Proficient in Jira, ServiceNow, Fresh Service, Citrix Workspace, Visual Studio, and Power BI for efficient project management and data analysis.</li>
+                <li>Scripting &amp; Automation: Experienced with PowerShell and SQL scripting for automation, data reconciliation, and performance optimisation.</li>
+            </ul>
+            <h3 style="font-size: 1.3rem;">Professional Experience</h3>
+            <h4 style="font-size: 1rem;">Application Support Engineer</h4>
+            <p>
+                Collaborated closely with QA teams for application testing in pre-production, ensuring functionality and reliability.
+                Evaluated third-party applications, developing business cases to recommend optimal solutions aligned with company needs.
+                Utilised Azure Insights for monitoring and troubleshooting API-related failures, providing real-time solutions to improve stability.
+                Provided on-call support, using HTML error codes and developer tools for web-based issue resolution.
+                Deployed application updates, modified C# code, and authored SQL stored procedures to optimise backend processes.
+                Monitored application performance through Azure Insights, ensuring optimal application stability and efficiency.
+            </p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" style="font-size: 1.3rem; font-family: inherit;">
+        <h2 style="font-size: 1.3rem; font-family: inherit;">Portfolio</h2>
+        <p style="font-size: 1.3rem; font-family: inherit;">Below I have listed completed projects that detail skills in Object Oriented Programming, Web development, and Game Making.</p>
+        <div class="projects" style="display: flex; flex-direction: column; gap: 2rem;">
+            <div class="project" style="display: flex; align-items: flex-start; gap: 1rem;">
+                <div>
+                    <h3 style="font-size: 1.3rem; font-family: inherit;">Project 1 .</h3>
+                    <span style="font-size: 1.3rem; font-family: inherit;"> I have provide a Screenshot of visual studios, which is a development tool I use for web development.
+                        in Screenshot you can see some of the HTML code I wrote for the project. I also use CSS and JavaScript to develop this webpage.</span>
+                </div>
+                <img src="HTML.png" alt="Project 1 Screenshot" style="display: block; width: 200px; height: 200px; object-fit: cover; margin-left: 1rem;">
+            </div>
+            <div class="project" style="display: flex; align-items: flex-start; gap: 1rem;">
+                <div>
+                    <h3 style="font-size: 1.3rem; font-family: inherit;">Project 2</h3>
+                    <span style="font-size: 1.3rem; font-family: inherit; color: #000;"> In screenshot you can see the use of the devlopment toll Programming, Which, i utilise to create a typing game, this game
+                        has the theam of Guess. The Guess race against each other as one flies across the screen the other move at each key type you make.</span>
+                </div>
+                <img src="processing .png" alt="Project 2 Screenshot" style="display: block; width: 200px; height: 200px; object-fit: cover; margin-left: 1rem;">
+            </div>
+            <div class="project" style="display: flex; align-items: flex-start; gap: 1rem;">
+                <div>
+                    <h3 style="font-size: 1.3rem; font-family: inherit;">Project 3</h3>
+                    <span style="font-size: 1.3rem; font-family: inherit; color: #000;"> I have provided a screenshot of the console Eclipse. That i have used to create a Purchase Order application, made by the use of Java. 
+                        This application is for buisness use and can be utlised by different industries of buiness. </span>
+                </div>
+                <img src="OOP.png" alt="Project 3 Screenshot" style="display: block; width: 200px; height: 200px; object-fit: cover; margin-left: 1rem;">
+            </div>
+        </div>
+    </section>
+    <!-- Contact Me Section -->
+    <section id="contact-me" class="container mt-4" style="display: flex; flex-direction: column; gap: 2rem;">
+        <h2>Contact Me</h2>
+        <form id="contact-form" class="needs-validation" novalidate style="display: flex; flex-direction: column; gap: 1.5rem;">
+            <div class="mb-3">
+                <label for="first-name" class="form-label">First Name:</label>
+                <input type="text" id="first-name" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="project-description" class="form-label">Project Description:</label>
+                <textarea id="project-description" class="form-control" rows="3" required></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="confirm-email" class="form-label">Confirm Email:</label>
+                <input type="email" id="confirm-email" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="phone-number" class="form-label">Phone Number:</label>
+                <input type="tel" id="phone-number" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="contact-method" class="form-label">Preferred Contact Method:</label>
+                <select id="contact-method" class="form-control" required>
+                    <option value="">Select...</option>
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="project-date" class="form-label">Project Date:</label>
+                <input type="date" id="project-date" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="project-duration" class="form-label">Project Duration (weeks):</label>
+                <input type="number" id="project-duration" class="form-control" min="1" required>
+            </div>
+
+            <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact: <a href="mailto:12435367@aston.ac.uk">12435367@aston.ac.uk</a></p>
+    </footer>
+
+</body>
+</html>
